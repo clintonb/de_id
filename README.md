@@ -10,6 +10,7 @@ Technology Requirements
 * Python 2.7
 * iPython Notebook
 * SQLite 3.x
+* [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/) (Optional, but recommended)
 
 
 Inputs required for this process
@@ -75,6 +76,15 @@ General User Manual
 This is intended as a VERY broad overview of the process as it was designed.
 For more information, read the documents accompanying the data release, read
 the comments in the code, or email waldo@g.harvard.edu.
+
+
+### Step 0: Install the requirements
+
+The Python dependencies to run these scripts are listed in `requirements.txt`. It is recommended that you use
+[`virtualenv`](http://docs.python-guide.org/en/latest/dev/virtualenvs/) to manage Python dependencies. The dependencies
+can be installed with the command below. This only needs to be run once.
+
+    $ pip install -r requirements.txt
 
 
 ### Step 1: Generate the database file
