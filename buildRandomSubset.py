@@ -12,7 +12,10 @@ the program is run. The program takes the name of the file containing all of the
 course/person records and the name of the subset file to be generated as command
 line arguments.
 '''
-import csv, random, sys
+import csv
+import random
+import sys
+
 
 def pickThis():
     '''

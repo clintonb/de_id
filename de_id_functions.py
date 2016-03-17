@@ -19,9 +19,18 @@
 #       
 ##################################
 
+import cPickle
+import csv
+import datetime
+import hashlib
+import itertools
+import math
+import os
+import random
+import sqlite3
+import string
 
-import sqlite3, csv, os, itertools, datetime, random, string, hashlib, pygeoip
-import pycountry, cPickle, math
+import pycountry
 
 
 ########################

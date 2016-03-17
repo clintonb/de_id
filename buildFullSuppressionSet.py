@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 __author__ = 'waldo'
 
+import pickle
+import sys
+
+from buildDeIdentifiedCSV import get_pickled_table, loe_dict
 from de_id_functions import *
-from buildDeIdentifiedCSV import build_numeric_dict, get_pickled_table, loe_dict
-import sys, pickle
 
 
 def make_key(key_list):

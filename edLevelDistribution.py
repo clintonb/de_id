@@ -12,8 +12,8 @@ The output prints more meaningful names than the abbreviations used in the datab
 """
 __author__ = 'waldo'
 import sys
-from de_id_functions import *
 
+from de_id_functions import *
 
 transdict = {
     'Doctorate': 'p',

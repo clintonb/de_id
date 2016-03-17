@@ -2,8 +2,10 @@
 
 __author__ = 'waldo'
 
-from de_id_functions import *
 import sys
+
+from de_id_functions import *
+
 
 def courseDropper2(cursor, tableName, courseVar, courseName, changeVals, courseDict={}):
     """

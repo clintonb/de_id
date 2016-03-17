@@ -17,11 +17,11 @@ that have fewer than a user-supplied set of entries in them.
 
 @author: waldo
 """
-import operator
 import csv
+
 import utils
 from de_id_functions import dbOpen
-import sqlite3
+
 
 def buildKey(ids, dataLine):
     """

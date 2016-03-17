@@ -2,10 +2,11 @@
 
 __author__ = 'waldo'
 
-from de_id_functions import dbOpen, dbClose
-import sys
-import random
 import pickle
+import random
+import sys
+
+from de_id_functions import dbOpen, dbClose
 
 
 def buildCDict(ulist):

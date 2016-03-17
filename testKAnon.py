@@ -18,9 +18,12 @@ Created on May 28, 2014
 
 @author: waldo
 """
-import operator
 import csv
+import operator
+
 import utils
+
+
 def buildKey(ids, dataLine):
     """
     Concatenate a set of fields together to build an overall key

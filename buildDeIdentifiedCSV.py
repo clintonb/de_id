@@ -2,7 +2,9 @@
 
 __author__ = 'waldo'
 
-import pickle, sys, csv
+import pickle
+import sys
+
 from de_id_functions import *
 
 """

@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
-from de_id_functions import dbOpen
 import sys
+
+from de_id_functions import dbOpen
 
 if __name__ == '__main__':
     dbname = sys.argv[1]

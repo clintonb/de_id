@@ -12,8 +12,11 @@ the code.
 '''
 __author__ = 'waldo'
 
+import pickle
+import sys
+
 from de_id_functions import *
-import sys, pickle
+
 
 def splitDate(date):
     '''
