@@ -93,3 +93,6 @@ ENV/
 # Database files
 *.db
 *.sqlite[3]
+
+# PII
+private_data/
