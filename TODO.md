@@ -40,6 +40,7 @@ Analysis #3
 De-identification #4
 --------------------
 1. Group/bin rows based on the number of forum posts. (??? Tail finder ???)
+   https://github.com/jdaries/de_id/blob/master/De-identification.py#L634-L658
 2. Group/bin rows based on birth year.  (??? Tail finder ???)
 
 Analysis #4
@@ -50,11 +51,13 @@ De-identification #5
 --------------------
 1. Apply L-diversity to the grade column.
 2. ??? Flag users who did not complete the course: nevents is NULL and nchapters is NULL, ndays_act is NULL, or nforum_posts is 0.
+   https://github.com/jdaries/de_id/blob/master/De-identification.py#L678-L710
 
 
 Analysis #5
 -----------
 1. ??? Using new selection of columns to update the k-anonymity key. (Unsure which columns.)
+   https://github.com/jdaries/de_id/blob/master/De-identification.py#L728-L735
 2. Delete rows that do NOT meet our desired level of k-anonymity.
 3. Provide stats: total rows remaining, students who viewed a course, explored a course, received a certificate.
 4. Histogram/data for gender and birth year.
